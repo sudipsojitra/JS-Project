@@ -107,3 +107,80 @@ body {
     display: none;
     color: red;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .card {
+        margin: 75px auto 0;
+        border-radius: 20px;
+        padding: 35px 25px;
+    }
+    .search input {
+        padding: 5px 10px;
+        height: 50px;
+        margin-right: 5px;
+        font-size: 14px;
+    }
+    .search button {
+        width: 43px;
+        height: 43px;
+        display: block;
+        justify-items: center;
+        align-items: center;
+    }
+    .weather-icon {
+        width: 110px;
+        margin-top: 20px;
+    }
+    .weather h1 {
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .weather h2 {
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: -8px;
+    }
+    .col img {
+        width: 30px;
+        margin-right: 7px;
+    }
+    .details {
+        padding: 0px 5px;
+    }
+    .humidity,
+    .wind {
+        font-size: 17px;
+        margin-top: 0px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    ...
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    ...
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    ...
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    ...
+}
